@@ -8,3 +8,6 @@ Homework and project notes for course CSCI 6212 - Design and analysis of algorit
 * `kruskal_normalized.py` - This file contains code to normalize the data values obtained from Kruskal's algorithm.
 * `kruskal_3d.py` - This file contains the code to generate the time complexity plot for varying input parameters.
 ---
+### References/Citations:
+* https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+---
