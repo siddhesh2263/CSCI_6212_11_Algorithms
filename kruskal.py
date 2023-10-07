@@ -256,13 +256,15 @@ g.add_edge(19, 17, 29)
 g.add_edge(19, 15, 30)
 
 
+# The below section is written in order to execute the Kruskal's algorithm multiple  times, in order to get an average consistent experimental value. More number of iterations result in a better experimental value.
+
 sum = 0
 counter = 1000000
 temp_counter = counter
 
 while counter > 0:
     before_time_ns = time.time_ns()
-    g.kruskal_algo()
+    g.kruskal_algo()    # This function executes the Kruskal's algorithm.
     after_time_ns = time.time_ns()
     total_time_ns = after_time_ns - before_time_ns
     sum = sum + total_time_ns
