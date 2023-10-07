@@ -256,7 +256,9 @@ g.add_edge(19, 17, 29)
 g.add_edge(19, 15, 30)
 
 
-# The below section is written in order to execute the Kruskal's algorithm multiple  times, in order to get an average consistent experimental value. More number of iterations result in a better experimental value.
+# The below section is written in order to execute the Kruskal's algorithm 
+# multiple  times, in order to get an average consistent experimental value.
+# More number of iterations result in a better experimental value.
 
 sum = 0
 counter = 1000000
